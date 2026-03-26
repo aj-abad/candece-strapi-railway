@@ -1,114 +1,41 @@
-############################
-# OS X
-############################
+# Dependencies
+node_modules/
 
+# Build output
+dist/
+build/
+.cache/
+.tmp/
+.strapi/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# OS
 .DS_Store
-.AppleDouble
-.LSOverride
-Icon
-.Spotlight-V100
-.Trashes
-._*
-
-
-############################
-# Linux
-############################
-
-*~
-
-
-############################
-# Windows
-############################
-
 Thumbs.db
-ehthumbs.db
-Desktop.ini
-$RECYCLE.BIN/
-*.cab
-*.msi
-*.msm
-*.msp
 
-
-############################
-# Packages
-############################
-
-*.7z
-*.csv
-*.dat
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.seed
-*.so
-*.swo
+# Editor
+.idea/
+.vscode/
 *.swp
-*.swn
-*.swm
-*.out
-*.pid
+*.swo
 
+# Strapi
+license.txt
+exports/
+*.cache
+.strapi-updater.json
 
-############################
-# Logs and databases
-############################
-
-.tmp
-*.log
-*.sql
-*.sqlite
-*.sqlite3
-
-
-############################
-# Misc.
-############################
-
-*#
-ssl
-.idea
-nbproject
+# Uploads (stored in Cloudinary)
 public/uploads/*
 !public/uploads/.gitkeep
 
-############################
-# Node.js
-############################
+# Logs
+*.log
+logs/
 
-lib-cov
-lcov.info
-pids
-logs
-results
-node_modules
-.node_history
-
-############################
-# Tests
-############################
-
-testApp
-coverage
-
-############################
-# Strapi
-############################
-
-.env
-license.txt
-exports
-*.cache
-build
-.strapi-updater.json
+# Types (auto-generated)
+types/generated/
