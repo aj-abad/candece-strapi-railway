@@ -13,8 +13,8 @@ export default ({ env }) => ({
         api_secret: env("CLOUDINARY_SECRET"),
       },
       actionOptions: {
-        upload: {},
-        uploadStream: {},
+        upload: { folder: "candece" },
+        uploadStream: { folder: "candece" },
         delete: {},
       },
     },
