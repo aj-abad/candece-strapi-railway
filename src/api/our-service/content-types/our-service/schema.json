@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_services",
+  "info": {
+    "singularName": "our-service",
+    "pluralName": "our-services",
+    "displayName": "Our Service",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "json"
+    },
+    "contentShort": {
+      "type": "text"
+    }
+  }
+}
