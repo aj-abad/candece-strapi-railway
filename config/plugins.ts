@@ -1,4 +1,8 @@
 export default ({ env }) => ({
+  editorjs: {
+    enabled: true,
+    resolve: "./src/plugins/editorjs",
+  },
   "users-permissions": {
     config: {
       jwtSecret: env("JWT_SECRET"),

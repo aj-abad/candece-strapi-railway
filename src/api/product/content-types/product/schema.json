@@ -17,7 +17,8 @@
       "required": true
     },
     "description": {
-      "type": "json"
+      "type": "customField",
+      "customField": "plugin::editorjs.editorjs"
     },
     "price": {
       "type": "decimal",

@@ -13,7 +13,8 @@
   "pluginOptions": {},
   "attributes": {
     "content": {
-      "type": "json"
+      "type": "customField",
+      "customField": "plugin::editorjs.editorjs"
     },
     "contentShort": {
       "type": "text"
